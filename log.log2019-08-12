@@ -1,0 +1,59 @@
+2019-8-12 15:41:33[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 15:41:35[ERROR](DruidDataSource.java:629) init datasource error
+com.microsoft.sqlserver.jdbc.SQLServerException: 无法打开登录所请求的数据库 "anqzj"。登录失败。 ClientConnectionId:24dedaee-e444-4261-ad2f-bd6d3dbb3d8f
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:254)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:84)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2908)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:2234)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:2220)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1326)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:618)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:915)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:911)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:98)
+	at cn.com.wavetop.DBConn.wb.AnqzjConnPool.getConnection(AnqzjConnPool.java:57)
+	at cn.com.wavetop.DBConn.wb.AnqzjConnPool.main(AnqzjConnPool.java:101)
+2019-8-12 15:41:35[ERROR](DruidDataSource.java:646) dataSource init error
+com.microsoft.sqlserver.jdbc.SQLServerException: 无法打开登录所请求的数据库 "anqzj"。登录失败。 ClientConnectionId:24dedaee-e444-4261-ad2f-bd6d3dbb3d8f
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:254)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:84)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2908)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:2234)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:2220)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1326)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:618)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:915)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:911)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:98)
+	at cn.com.wavetop.DBConn.wb.AnqzjConnPool.getConnection(AnqzjConnPool.java:57)
+	at cn.com.wavetop.DBConn.wb.AnqzjConnPool.main(AnqzjConnPool.java:101)
+2019-8-12 15:41:35[ERROR](AnqzjConnPool.java:103) 数据库连接池失败！
+2019-8-12 15:48:45[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 15:59:35[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 15:59:42[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:00:00[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:00:19[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:14[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:21[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:27[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:34[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:40[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-12 16:03:47[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set

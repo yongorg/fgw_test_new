@@ -1,0 +1,6 @@
+2019-8-15 10:25:36[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-15 10:27:34[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-15 10:28:43[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-15 10:29:54[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-15 10:37:24[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
+2019-8-15 10:37:49[ERROR](DruidDataSource.java:795) testWhileIdle is true, validationQuery not set
